@@ -76,7 +76,7 @@ El script `arp_mitm.py` envenena de forma continua y simultánea las tablas ARP 
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/luiggyencarnacion>/ARP-MitM-Attack.git
+git clone https://github.com/luiggyencarnacion/ARP-MitM-Attack.git
 cd ARP-MitM-Attack
 
 # 2. Crear entorno virtual
