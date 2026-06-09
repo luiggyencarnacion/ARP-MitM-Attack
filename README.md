@@ -122,6 +122,7 @@ scapy>=2.5.0
   Tráfico interceptado:
   PC1 ──► Atacante (Kali) ──► R-1   [en lugar de PC1 ──► R-1]
 ```
+
 ![Topología GNS3](images/01_topologia_gns3.png)
 
 ### Tabla de Direccionamiento
