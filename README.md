@@ -112,16 +112,17 @@ scapy>=2.5.0
                     └──┬───┬──┘
                Gig0/2  │   │  Gig0/1
               ┌────────┘   └───────────┐
-         ┌────┴──────┐            ┌────┴─────┐
-         │KaliLinux-1│            │   PC1    │
-         │  Atacante │            │ Víctima  │
-         │10.6.63.13 │            │10.6.63.50│
-         └───────────┘            └──────────┘
+         ┌────┴────────┐          ┌────┴───────┐
+         │ KaliLinux-1 │          │    PC1     │
+         │  Atacante   │          │  Víctima   │
+         │ 10.6.63.13  │          │ 10.6.63.50 │
+         └─────────────┘          └────────────┘
                e0                      e0
 
   Tráfico interceptado:
   PC1 ──► Atacante (Kali) ──► R-1   [en lugar de PC1 ──► R-1]
 ```
+![Topología GNS3](images/01_topologia_gns3.png)
 
 ### Tabla de Direccionamiento
 
@@ -208,7 +209,7 @@ Ether(dst=gateway_mac) / ARP(
 ## 🚀 Uso y Ejecución
 
 ```bash
-sudo python3 arp_mitm.py
+sudo python3 arp_mitm_attack.py
 ```
 
 **Interacción esperada:**
@@ -301,14 +302,6 @@ evidencias/
 ## 🎬 Video de Demostración
 
 > 📺 **[Ver demostración en YouTube →](https://youtu.be/TzIkY6gyWcc?si=VyapQS7zCNzDfu8a)**
-
-- ✅ Topología en GNS3 con nombre **Luiggy Encarnación** y matrícula **2025-0663**
-- ✅ Hora y fecha del sistema visibles
-- ✅ Cara y voz del autor
-- ✅ Envenenamiento ARP activo con contador en tiempo real
-- ✅ Verificación de tabla ARP envenenada en la víctima
-- ✅ Aplicación de DAI y verificación de bloqueo
-- ⏱️ Duración máxima: 5 minutos
 
 ---
 
