@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-557C94?style=for-the-badge&logo=linux&logoColor=white)
 ![Scapy](https://img.shields.io/badge/Library-Scapy-FF6F00?style=for-the-badge)
-![GNS3](https://img.shields.io/badge/Simulator-GNS3-009639?style=for-the-badge)
+![GNS3](https://img.shields.io/badge/Emulador-GNS3-009639?style=for-the-badge)
 ![License](https://img.shields.io/badge/Uso-Educativo-blue?style=for-the-badge)
 
 > Ataque Man-in-the-Middle mediante envenenamiento continuo de la caché ARP de la víctima y el gateway, interceptando de forma transparente todo el tráfico entre ambos.
